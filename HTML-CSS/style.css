@@ -1,0 +1,55 @@
+ *{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Pushster", cursive;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.Sitech {
+    position: relative;
+    background: #fee4d4;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    border-style: dotted solid;
+}
+
+.name {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    height: 150px;
+    width: 150px;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.country {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    height: 150px;
+    width: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button {
+    position: absolute;
+    padding: 5px;
+    border-radius: 10px;
+    top: 50%;
+    left: 25%;
+    height: 150px;
+    width: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
